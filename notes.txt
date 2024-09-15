@@ -1,0 +1,30 @@
+Stats:
+HEALTH (HLT), ATTACK (ATK), SPECIAL (SPC), DEFENSE (DEF), EVASION (%) (EVA), CRIT (%) (CRT)
+- each stat will have its own level
+- upgrade points used to increase a stat of choice
+- overall level will be the sum of the upgrade points
+- damage calc: use the ATTACK value and modify it based on user's weapon type, ATK, and target's DEF
+- SPECIAL stat will determine how skills scale
+- crit damage multiplier does not change
+
+3 types of weapons:
+- single target
+- all target
+    - constant divider for damage
+- chain
+    - first target does most damage, decreasing for each target
+    - subsequent targets are random
+
+Each character has an offensive and a defensive/support action to use each turn
+- turn counter for skills
+- examples: dodge chance boosts, damage boosts, healing, etc
+
+
+characters can't choose their weapon type
+- each character has a set weapon type and skill
+
+
+enemy stats:
+- same stat types as players
+- there will be different enemy types
+- every enemy of the same type at the same level have the same stats
