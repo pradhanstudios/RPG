@@ -1,4 +1,4 @@
-#include "entity.hpp"
+#include "logic/entity.hpp"
 
 Entity::Entity(int base_health, int level, float level_multiplier) {
     this->base_health = base_health;
